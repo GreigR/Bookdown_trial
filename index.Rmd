@@ -1,8 +1,10 @@
 ---
-title: "Untitled"
+title: "First Bookdown document"
 author: "Dr Greig Russell"
 date: "1 January 2017"
-output: html_document
+documentclass: book
+output: 
+  bookdown::gitbook: default
 ---
 
 ```{r setup, include=FALSE}
