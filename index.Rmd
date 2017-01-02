@@ -2,18 +2,12 @@
 title: "First Bookdown document"
 author: "Dr Greig Russell"
 date: "1 January 2017"
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_document2: default
 documentclass: book
-bibliography: "trial.bib"
-biblio-style: "apalike"
-output: 
-  bookdown::gitbook: 
-  config:
-    edit: https://github.com/GreigR/Bookdown_trial/%s
-    download: "pdf"
-    sharing:
-      facebook: YES
-      google: YES
-      
+bibliography: trial.bib
+biblio-style: apalike
 ---
 
 ```{r setup, include=FALSE}
