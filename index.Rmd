@@ -3,8 +3,9 @@ title: "First Bookdown document"
 author: "Dr Greig Russell"
 date: "1 January 2017"
 output:
-  bookdown::word_document2: default
-  bookdown::gitbook: default
+  bookdown::gitbook: 
+    config:
+      edit: https://github.com/GreigR/Bookdown_trial/edit/master/%s
 documentclass: book
 bibliography: trial.bib
 biblio-style: apalike
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This document will be used to build a "book", which will be a single part document in the first instance, leading to a PDF & Word document output [@teece1997dynamic].
 
-```{r cars, echo = FALSE}
+```{r cars, echo = FALSE, fig.width=8}
 library(knitr)
 kable(head(mtcars[1:4]), digits = 2)
 ```
