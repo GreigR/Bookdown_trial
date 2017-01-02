@@ -3,8 +3,8 @@ title: "First Bookdown document"
 author: "Dr Greig Russell"
 date: "1 January 2017"
 output:
+  bookdown::word_document2: default
   bookdown::gitbook: default
-  bookdown::pdf_document2: default
 documentclass: book
 bibliography: trial.bib
 biblio-style: apalike
